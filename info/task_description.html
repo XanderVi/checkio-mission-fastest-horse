@@ -1,0 +1,52 @@
+<!-- Describe task in general -->
+
+<p>
+    We have some statistics about horse races (time for each horse in each race).<br>
+    You have to find the number of the horse which has the most wins.<br>
+    For example: if the results are [[“1:13”, “1:26”, “1:11”], [“1:10”, “1:18”, “1:14”], [“1:20”, “1:23”, “1:15”]] than the 3rd horse is the fastest, because she has 2 wins at 3 races.<br>
+    Every element in the list - is a string in format m:ss, for example "1:05" or "2:22". 1:00 <= time <= 5:00
+</p>
+
+<p style="text-align: center;">
+    <img  title="The highest building" src="{{MEDIA}}example.jpg" alt="example" style="max-height: 283px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input: </strong> Racing time as array of arrays.
+</p>
+
+<p>
+    <strong>Output: </strong> Number of the fastest horse, which has the most wins (Important: in this task the numbers of horses are started from "1", not from "0") 
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Example:</strong>
+</p>
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">fastestHorse([[“1:13”, “1:26”, “1:11”], [“1:10”, “1:18”, “1:14”], [“1:20”, “1:23”, “1:15”]]) == 3
+</pre>
+{% else %}
+<pre class="brush: python">fastest_horse([[“1:13”, “1:26”, “1:11”], [“1:10”, “1:18”, “1:14”], [“1:20”, “1:23”, “1:15”]]) == 3
+</pre>
+{% endif %}
+</div>
+
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>How it is used: </strong>
+    For data analysis and statistics (finding elements which we want in the huge amount of data).
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p><strong>Precondition</strong>:<br>
+    2 <= horses <= 10<br>
+    1 <= races <= 10<br>
+    1:00 <= time <= 5:00<br>
+    There is only 1 fastest horse in each test
+</p>

@@ -1,0 +1,14 @@
+"use strict";
+
+function fastestHorse(horses) {
+    // your code here
+    return 0;
+}
+
+var assert = require('assert');
+if (!global.is_checking) {
+
+    // These "asserts" are used for self-checking and not for an auto-testing
+    assert.equal(fastestHorse([['1:13', '1:26', '1:11'], ['1:10', '1:18', '1:14'], ['1:20', '1:23', '1:15']]), 3)
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}
