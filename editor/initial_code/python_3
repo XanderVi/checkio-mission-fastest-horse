@@ -1,4 +1,4 @@
-def fastest_horse(horses):
+def fastest_horse(horses: list) -> int:
     #replace this for solution
     return 0
 
