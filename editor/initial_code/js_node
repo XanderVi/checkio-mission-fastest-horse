@@ -8,7 +8,7 @@ function fastestHorse(horses) {
 var assert = require('assert');
 if (!global.is_checking) {
     console.log('Example:')
-    console.log(fastestHorse(['1:20', '1:23', '1:15']))
+    console.log(fastestHorse([['1:20', '1:23', '1:15']]))
 
     // These "asserts" are used for self-checking and not for an auto-testing
     assert.equal(fastestHorse([['1:13', '1:26', '1:11'], ['1:10', '1:18', '1:14'], ['1:20', '1:23', '1:15']]), 3)
